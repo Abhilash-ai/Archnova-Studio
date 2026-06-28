@@ -2,6 +2,8 @@
 
 > An AI-powered Architecture Operating System and Client Portal.
 
+**[🚀 View Live Production App (Vercel)](https://archnova.vercel.app)**
+
 ![Archnova Banner](./public/logo.png)
 
 ## Overview
