@@ -7,6 +7,13 @@
 ## Overview
 Archnova Studio is a premium, end-to-end web application built for modern architectural firms. It acts as both a beautifully designed landing page for prospective clients and a highly interactive, authenticated operating system for firm members to manage their projects, schedules, and team operations.
 
+## ❓ Why We Built Archnova (The Use Case)
+The architecture industry relies heavily on visuals, precision, and client trust. However, most firms struggle with scattered toolsets—using one generic software for their public portfolio, another for project management, and a third for scheduling client meetings. 
+
+**Archnova solves this by unifying the workflow:**
+1. **For Clients (The Public Face):** A sleek, high-end portfolio website that instantly builds trust and showcases architectural expertise through a premium, glassmorphic aesthetic.
+2. **For Architects (The Internal OS):** A powerful, data-rich dashboard hidden behind a secure login. Architects can track project budgets, schedule site visits (with integrated Google Maps), and host virtual consultations (via Google Meet) all from one centralized hub.
+
 ## ✨ Features
 
 - **Immersive Landing Page**: Built with dynamic scroll animations, glassmorphic UI, and adaptive themes to provide a high-end editorial feel.
