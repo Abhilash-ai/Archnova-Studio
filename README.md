@@ -1,36 +1,59 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# 🏢 Archnova Studio
 
-## Getting Started
+> An AI-powered Architecture Operating System and Client Portal.
 
-First, run the development server:
+![Archnova Banner](./public/logo.png)
 
+## Overview
+Archnova Studio is a premium, end-to-end web application built for modern architectural firms. It acts as both a beautifully designed landing page for prospective clients and a highly interactive, authenticated operating system for firm members to manage their projects, schedules, and team operations.
+
+## ✨ Features
+
+- **Immersive Landing Page**: Built with dynamic scroll animations, glassmorphic UI, and adaptive themes to provide a high-end editorial feel.
+- **Client Portal (Dashboard)**: A full-fledged internal dashboard designed with highly responsive grids and deep aesthetics.
+- **Dynamic Project Management**: Create, edit, and track architectural projects in real-time. Project state is globally managed and persisted.
+- **Interactive Site Maps**: Built-in Google Maps iframe integration that automatically plots real-world locations based on project addresses.
+- **Google Meet Integration**: Synchronized virtual meetings featuring instantly launchable Google Meet links.
+- **Global Theme Engine**: Complete Light/Dark mode support via `next-themes`, ensuring the UI adapts gracefully to system preferences.
+- **Flawless Responsiveness**: Every single page is meticulously audited with Tailwind breakpoints to look perfect on mobile devices, tablets, and ultra-wide desktop monitors.
+
+## 💻 Tech Stack
+
+- **Framework**: [Next.js](https://nextjs.org/) (App Router, v16.2.9)
+- **Styling**: [Tailwind CSS v4](https://tailwindcss.com/)
+- **State Management**: [Zustand](https://zustand-demo.pmnd.rs/) (Persisted)
+- **Components**: [Radix UI](https://www.radix-ui.com/) (Primitives) & [Shadcn UI](https://ui.shadcn.com/)
+- **Icons**: [Lucide React](https://lucide.dev/)
+- **Deployment**: [Vercel](https://vercel.com/)
+
+## 🚀 Getting Started
+
+First, install the dependencies:
 ```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
+npm install
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+Then, run the development server:
+```bash
+npm run dev
+```
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+Open [http://localhost:3000](http://localhost:3000) with your browser to see the result. The application supports Hot Module Replacement (HMR) for seamless development.
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+## ☁️ Deployment
 
-## Learn More
+This project is configured to deploy instantly on Vercel with zero additional configuration. 
 
-To learn more about Next.js, take a look at the following resources:
+```bash
+# Ensure you have the Vercel CLI installed
+npm i -g vercel
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+# Deploy to production
+npx vercel --prod
+```
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+## 🔒 Type Safety & Quality
+Archnova Studio enforces strict engineering standards:
+- **Zero-Error Policy**: Tested to ensure absolute zero compilation or linting errors.
+- **Strict TypeScript**: 100% type-safe codebase.
+- **Hydration Safe**: Wrapped with `suppressHydrationWarning` and designed to flawlessly render on the server before transferring to the client.
